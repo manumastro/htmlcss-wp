@@ -27,6 +27,13 @@ body{
   margin:0 auto;
 }
 
+.overlay{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  border-radius: 10px;
+  color: white;
+}
+
 /* HEADER TOP*/
 .header-top{
   height: 200px;
@@ -67,21 +74,36 @@ nav ul li a:hover{
   color: #cbbcb6;
 }
 
-/* HEADER-BOTTOM */
 
+/* HEADER-BOTTOM */
 .jumbotron{
   height: 644px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   background-color: #e1d67a;
   background-image: url(../img/banner.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
   
 }
 
-.overlay{
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 100%;
+.jumbotron .text{
+  padding-top: 27%;
+  padding-left: 51px;
+}
+
+
+.jumbotron h4{
+  width: 55%;
+  font-size: 1.2rem;
+  font-weight: 400
+}
+
+.jumbotron h3{
+  width: 57%;
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 
 
