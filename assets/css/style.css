@@ -17,16 +17,17 @@
 }
 
 body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
   width:80%;
   max-width: 1800px;
   min-width: 600px;
   margin:0 auto;
-  font-family: 'Montserrat', sans-serif;
 }
 
-
-
-/* HEADER */
+/* HEADER TOP*/
 .header-top{
   height: 200px;
   margin-bottom: 40px;
@@ -66,12 +67,22 @@ nav ul li a:hover{
   color: #cbbcb6;
 }
 
-.header-bottom{
-  height: 700px;
+/* HEADER-BOTTOM */
+
+.jumbotron{
+  height: 644px;
   margin-bottom: 40px;
   background-color: #e1d67a;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  
 }
 
+.overlay{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
 
 
 
