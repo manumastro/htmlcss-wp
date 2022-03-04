@@ -34,6 +34,19 @@ body{
   color: white;
 }
 
+.description p{
+  padding-top: 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.description p:last-child{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #a6a6a6;
+}
+
+
 /* HEADER TOP*/
 .header-top{
   height: 200px;
@@ -138,29 +151,40 @@ aside.col-left{
   background-position: center;
 }
 
-.description p{
-  padding-top: 25px;
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-.description p:last-child{
-  font-weight: 400;
-  color: #a6a6a6;
-}
-
 section{
   width: 60%;
   height: 800px;
-  background-color: #abcfe7;
+}
+
+.col-center .img-center{
+  height: 250px;
+  background-image: url(../img/banner-2.jpg);
+  background-position: center;
 }
 
 aside.col-right{
   margin-left: 2%;
 }
 
+.col-right .img-right{
+  height: 250px;
+  background-image: url(../img/img-3.jpg);
+  background-position: center;
+}
 /* FOOTER */
 footer{
   height: 100px;
   margin-bottom: 50px;
-  background-color: #8801fe;
+}
+
+footer p{
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 100px;
+}
+
+footer p::after{
+  content: "\2764";
+  font-size: 1.5rem;
+  color: red;
 }
